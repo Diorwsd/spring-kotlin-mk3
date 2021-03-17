@@ -8,6 +8,9 @@ import javax.persistence.Entity
 import javax.persistence.Id
 import javax.persistence.Table
 
+/**
+ * oracle schema+table name 使用者表格
+ */
 @Entity
 @Table(name="USERS", schema = "USRADMIN")
 class USERS {
